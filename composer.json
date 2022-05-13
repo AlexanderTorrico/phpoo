@@ -1,0 +1,16 @@
+{
+    "name": "merxdev/poo",
+    "description": "poo",
+    "autoload": {
+        "psr-4": {
+            "Merxdev\\Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlexanderTorrico",
+            "email": "torrico.torrico.alexander@gmail.com"
+        }
+    ],
+    "require": {}
+}
