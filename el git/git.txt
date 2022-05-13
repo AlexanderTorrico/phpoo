@@ -1,0 +1,12 @@
+git log index.html  //Muestra el historial de los cambios del archivo
+git log 
+
+git show index.html //Muestra los ultimos cambiosrealizados
+
+git diff keyCommitOld keyCommitNew  //Muestra la diferencia entre los dos archivos
+
+git rm script.js  //cuando se a realizado add . puedes remover el archivo del add
+
+git reset keyCommit --hard
+
+git checkout keyCommit index.html
