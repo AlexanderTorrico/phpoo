@@ -7,6 +7,17 @@ git diff keyCommitOld keyCommitNew  //Muestra la diferencia entre los dos archiv
 
 git rm script.js  //cuando se a realizado add . puedes remover el archivo del add
 
-git reset keyCommit --hard
+git reset keyCommit --hard  //elimina el ultimo commit_
 
 git checkout keyCommit index.html
+
+git log
+git log --stat
+
+git merge branch_a_unir  //fución de ramas
+
+git pull origin master --allow-unrelated-histories   //fución de dos ramas que tengan historias distintas (.readme)
+
+
+git config -l
+git log --all --graph --decorate --oneline
